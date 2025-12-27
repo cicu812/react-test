@@ -1,6 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import viteLogo from "./vite.svg";
 import "./App.css";
 
 function App() {
@@ -27,6 +27,9 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click the Vite and React logos. See what happens.
+      </p>
+      <p className="rounded-xl border-2 border-blue-500 p-2 text-3xl font-bold text-blue-500">
+        Learn to Integrate React with Tailwind CSS
       </p>
     </>
   );
